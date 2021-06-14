@@ -1,6 +1,6 @@
 const Lauching = () => {
   return (
-    <section id='launching' className='flex-col lg:flex-row flex mt-40'>
+    <section id='launching' className='flex-col lg:flex-row flex my-12'>
       <div className=' mb-8 lg:mb-0 mr-10'>
         <h2>Lançamento</h2>
         <p className='mt-4'>

@@ -2,7 +2,7 @@ const About = () => {
   return (
     <section id='about' className='flex-col lg:flex-row flex items-center justify-between'>
       <img className='w-96 lg:w-2/5' src="/images/about.png" alt="about image" />
-      <article className='ml-10'>
+      <article className='ml-0 lg:ml-10'>
         <h2>Sobre</h2>
         <p className='mt-4'>
           Conecse foi feito para pessoas que queiram aprender ou que queira

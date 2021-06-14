@@ -3,6 +3,8 @@ import AppHeader from "../components/AppHeader";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Launching from "../components/Lauching";
+import Contribute from "../components/Contribute";
+import AppFooter from "../components/AppFooter";
 
 export default function Home() {
   return (
@@ -17,7 +19,9 @@ export default function Home() {
         <Hero />
         <About/>
         <Launching/>
+        <Contribute/>
       </main>
+      <AppFooter/>
     </div>
   );
 }
