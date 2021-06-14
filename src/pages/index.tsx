@@ -1,15 +1,23 @@
 import Head from "next/head";
+import AppHeader from "../components/AppHeader";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Launching from "../components/Lauching";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-light">
+    <div className="min-h-screen bg-gray-lighter">
       <Head>
         <title>Conecse</title>
         <link rel="icon" href="/conecse.svg" />
       </Head>
 
-      <img className="mr-3" src="/conecse.svg" alt="logo" />
-      <h1 className="font-semibold text-3xl">Em breve...</h1>
+      <AppHeader />
+      <main className='px-5 md:px-24 lg:px-48'>
+        <Hero />
+        <About/>
+        <Launching/>
+      </main>
     </div>
   );
 }
