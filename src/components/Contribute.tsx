@@ -43,8 +43,8 @@ const Contribute = () => {
           className="input lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-4 mb-4"
           name="message"
           id="message"
-          cols="30"
-          rows="10"
+          cols={30}
+          rows={10}
           placeholder="Deixe sua mensagem"
         ></textarea>
         <button
